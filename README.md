@@ -1,6 +1,6 @@
-Do you hate writing __init__ methods, but love documentation doubling as code
+Do you hate writing \_\_init\_\_ methods, but love documentation doubling as code
 generation? Then I have the module for you! AutoInit will parse your class
-documentation and create an __init__ method custom-built, just for you!
+documentation and create an \_\_init\_\_ method custom-built, just for you!
 
 Example:
 
@@ -23,6 +23,6 @@ greeter.greet('Susan') # Hello, Susan
 ```
 
 In this example, the AutoInit decorator finds the docstring for our class,
-parses out the "greeing" argument, and sets up an __init__ for Greeter that
+parses out the "greeing" argument, and sets up an \_\_init\_\_ for Greeter that
 sets self.greeting=args[0]. Genius!
 
